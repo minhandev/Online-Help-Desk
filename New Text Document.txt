@@ -1,0 +1,5 @@
+1. Database
+  "ConnectionStrings": {
+    "ConnectString": "Server=.\\sqlexpress;Database=dbHelpDesk;Trusted_Connection=True;"
+  }
+2. Scaffold-Dbcontext "Server=.\sqlexpress;Database=dbHelpDesk;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context dbHelpDeskEntities -force 
